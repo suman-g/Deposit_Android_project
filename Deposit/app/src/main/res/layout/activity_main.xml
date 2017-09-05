@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.suman.deposit.MainActivity"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/deposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:inputType="number"
+        android:hint="enter deposit amount"
+        android:textColor="#000"
+        android:padding="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvdeposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="deposit"
+        android:background="#303f9f"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:gravity="center"
+        />
+</LinearLayout>
