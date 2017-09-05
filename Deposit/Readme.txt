@@ -1,0 +1,1 @@
+This app is used for transferring between activities with result data using Intent.
